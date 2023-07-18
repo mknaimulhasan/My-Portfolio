@@ -1,0 +1,296 @@
+/* Add your CSS styles here */
+body{  
+  background-color: #F0EEED;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.section {
+  padding: 20px;
+} 
+
+
+#header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color:#D9D6D4;
+  color: #333333;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+#skills {
+  text-align: center;
+}
+
+#skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 91%;
+}
+
+.skill-item {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+#skills-label {
+  margin-bottom: 20px;
+}
+
+#skills-label h2 {
+  margin: 0;
+}
+
+#education {
+  text-align: center;
+}
+
+#education-label {
+  margin-bottom: 20px;
+}
+
+#education-label h2 {
+  margin: 0;
+}
+
+.institution-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.institution-name {
+  font-weight: bold;
+}
+
+.institution-dates {
+  font-style: italic;
+}
+
+.module-list {
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.module-list p {
+  margin: 0;
+}
+
+#projects {
+  text-align: center;
+}
+
+#projects-label {
+  margin-bottom: 20px;
+}
+
+#projects-label h2 {
+  margin: 0;
+}
+
+.project-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.project-dates {
+  font-style: italic;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.project-description ul {
+  padding-left: 20px;
+}
+
+.project-description li {
+  margin-bottom: 10px;
+}
+
+#achievement {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+
+
+#achievement-label {
+  margin-bottom: 20px;
+}
+
+#achievement-label h2 {
+  margin: 0;
+}
+
+#achievement-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.achievement-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.achievement-title {
+  font-weight: bold;
+}
+
+.achievement-points {
+  text-align: left;
+}
+
+#work-experience {
+  text-align: center;
+}
+
+#work-experience .section-heading {
+  margin-bottom: 20px;
+}
+
+.work-experience-box {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.company-title {
+  font-weight: bold;
+}
+
+.position-title {
+  font-style: italic;
+}
+
+.work-experience-box h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.work-experience-box .position {
+  font-weight: bold;
+  
+}
+
+.work-experience-box .company {
+  font-style: italic;
+}
+
+.work-experience-box .dates {
+  font-style: italic;
+}
+
+.work-experience-box .bullet-points-list {
+  margin-top: 10px;
+}
+
+.work-experience-box .bullet-points-list li {
+  margin-bottom: 10px;
+}
+
+.company-title {
+  font-weight: bold;
+}
+
+.position-title {
+  font-style: italic;
+}
+
+.bottom-container{
+  background-color: #D9D6D4;
+  position: relative;
+  padding:50px 0 40px;
+  text-align: center;
+}    
+.footer-link {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 30px; /* Add margin to create space between icons */
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #Eaf6f6;
+}
+.copyright{
+  color: #333333;
+  font-size: 0.40cm;
+  padding: 20px 0;
+}
+.contact-message{
+  text-align: center;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto 50px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:#333333 ;
+  text-align: center;
+  font-weight: 2.5rem;
+  padding-bottom: 10px;
+}
+hr{
+  border: dotted #Eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  color: #40514e;
+}
+.footer-icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px; /* Add margin to create space between icons */
+  text-decoration: none;
+}
