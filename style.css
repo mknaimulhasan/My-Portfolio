@@ -4,7 +4,7 @@ body{
   color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .section {
@@ -13,11 +13,13 @@ body{
 
 
 #header {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
-  background-color:#D9D6D4;
-  color: #333333;
+  background-color:#1B6B93;
+  color: white;
 }
 
 
@@ -25,8 +27,31 @@ h1 {
   margin: 0;
 }
 
-#skills {
+#about-me {
   text-align: center;
+}
+
+.about-me-color {
+  background-color: azure;
+}
+
+#about-me-container {
+  font-size: large;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 20px;
+  
+}
+
+
+#skills {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.skills-color {
+  background-color: #ccf2f4;
 }
 
 #skills-list {
@@ -35,6 +60,9 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 91%;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  
 }
 
 .skill-item {
@@ -54,7 +82,12 @@ h1 {
 }
 
 #education {
+  padding-top: 40px;
+  padding-bottom: 20px;
   text-align: center;
+}
+.education-color{
+  background-color: #fff5eb;
 }
 
 #education-label {
@@ -97,6 +130,10 @@ h1 {
 
 #projects {
   text-align: center;
+}
+
+.projects-color{
+  background:#f2f2f5;
 }
 
 #projects-label {
@@ -152,6 +189,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+.achievement-color{
+  background-color: #e8f0f2;
+}
+
 #achievement-label h2 {
   margin: 0;
 }
@@ -185,6 +226,9 @@ h1 {
 
 #work-experience {
   text-align: center;
+}
+.work-experience-color{
+  background-color: #ECF8F9;
 }
 
 #work-experience .section-heading {
@@ -245,12 +289,20 @@ h1 {
   font-style: italic;
 }
 
+.contact-me-color{
+  background-color: #ECF8F9;
+}
+
 .bottom-container{
   background-color: #D9D6D4;
   position: relative;
   padding:50px 0 40px;
   text-align: center;
 }    
+
+.bottom-container-color{
+  background-color: #1B6B93;
+}
 .footer-link {
   color: #333333;
   font-family: 'Montserrat', sans-serif;
@@ -262,7 +314,7 @@ h1 {
   color: #Eaf6f6;
 }
 .copyright{
-  color: #333333;
+  color: white;
   font-size: 0.40cm;
   padding: 20px 0;
 }

@@ -1,3 +1,8 @@
+
+
+// About Me data
+const aboutMeContent = "I'm M K Naimul Hasan, a second-year computer science student at Brunel University London. An ambitious, determined individual with big dreams and having the capability to fulfil them with hard work and dedication. I am excited about grabbing opportunities to gain hands-on experience with real world problems and solutions.";
+
 // Skills data
 const skills = [
   "Java",
@@ -55,20 +60,20 @@ const institutions = [
 // Projects data
 const projects = [
   {
-    title: "FOOD4YOU Year-2 Group Project | 2023",
+    title: "FOOD4YOU - Year-2 Group Project",
     techStack: "Java, JavaScript, HTML, CSS, MySql, Springboot, Git, Bootstrap",
     description:
       ["Led the development of a web application enabling users to donate excess food by posting available items on the platform, connecting them with individuals in need and facilitating food collection through local food banks.",
       "Acquired comprehensive knowledge of full stack web development, including frontend design, backend programming, and database management, while collaborating effectively with team members using various collaborative tools and methodologies.", "Showcased the project at 'Made in Brunel Software Innovation 2023' and secured the prestigious 'Best Project' award from EMERGEIQ, recognizing the innovation, functionality, and social impact of the web-app.",],
   },
   {
-    title: "SCIENTIFIC CALCULATOR Year-1 Project | 2022",
+    title: "SCIENTIFIC CALCULATOR - Year-1 Project",
     techStack: "Java",
     description:
       ["Designed and developed a GUI-based Scientific Calculator during the first year that met all the requirements provided by the module leader, demonstrating attention to specifications and ensuring accurate functionality." , "Expanded proficiency in Java programming language during the development of the calculator, acquiring essential skills in object-oriented programming and GUI implementation."],
   },
   {
-    title: "RESTAURANT MANAGEMENT SYSTEM Personal Project | 2023",
+    title: "RESTAURANT MANAGEMENT SYSTEM - Personal Project",
     techStack: "MongoDB, ExpressJs, ReactJs, NodeJs",
     description:
       ["Created a personal project - a comprehensive restaurant management system app, designed to streamline operations and enhance customer experiences through efficient food ordering, table management, and inventory tracking functionalities." ,"Successfully developed the entire project independently, showcasing proficiency in project planning, software development, problem-solving and debugging, resulting in a fully functional and user-friendly restaurant management application."],
@@ -104,6 +109,15 @@ const workExperience = [
     ]
   }
 ];
+
+// Update about me section
+const aboutMeSection = document.getElementById("about-me-container");
+
+// Add about me content
+const aboutMeContentElement = document.createElement("p");
+aboutMeContentElement.textContent = aboutMeContent;
+
+aboutMeSection.appendChild(aboutMeContentElement);
 
 // Update skills section
 const skillsSection = document.getElementById("skills");
