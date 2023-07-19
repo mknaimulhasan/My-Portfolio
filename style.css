@@ -295,24 +295,14 @@ h1 {
 
 .bottom-container{
   background-color: #D9D6D4;
-  position: relative;
-  padding:50px 0 40px;
+  padding-top: 90px;
   text-align: center;
 }    
 
 .bottom-container-color{
   background-color: #1B6B93;
 }
-.footer-link {
-  color: #333333;
-  font-family: 'Montserrat', sans-serif;
-  margin-right: 30px; /* Add margin to create space between icons */
-  text-decoration: none;
-}
 
-.footer-link:hover{
-  color: #Eaf6f6;
-}
 .copyright{
   color: white;
   font-size: 0.40cm;
@@ -333,13 +323,7 @@ h2{
   font-weight: 2.5rem;
   padding-bottom: 10px;
 }
-hr{
-  border: dotted #Eaf6f6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-  color: #40514e;
-}
+
 .footer-icon {
   color: white;
   font-size: 20px;
