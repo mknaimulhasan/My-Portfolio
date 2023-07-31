@@ -8,7 +8,7 @@ body{
 }
 
 .section {
-  padding: 20px;
+  padding: 40px;
 } 
 
 
@@ -26,7 +26,6 @@ body{
 h1 {
   margin: 0;
 }
-
 #about-me {
   text-align: center;
 }
@@ -37,12 +36,25 @@ h1 {
 
 #about-me-container {
   font-size: large;
-  padding-left: 200px;
-  padding-right: 200px;
   margin-top: 20px;
-  
 }
 
+/* Responsive CSS for smaller screens */
+@media screen and (max-width: 768px) {
+  #about-me-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* Responsive CSS for even smaller screens */
+@media screen and (max-width: 576px) {
+  #about-me-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+  }
+}
 
 #skills {
   padding-top: 40px;
@@ -308,12 +320,43 @@ h1 {
   font-size: 0.40cm;
   padding: 20px 0;
 }
-.contact-message{
+/* Common styles for the section */
+#contact-me {
+  padding: 40px;
   text-align: center;
-  width: 40%;
-  font-family: 'Montserrat', sans-serif;
-  margin: 50px auto 50px;
 }
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  #contact-me {
+    padding: 80px 40px;
+  }
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 576px) {
+  #contact-me {
+    padding: 60px 20px;
+  }
+}
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  #contact-me {
+    padding: 80px 40px;
+  }
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 576px) {
+  #contact-me {
+    padding: 60px 20px;
+  }
+}
+
 
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -329,4 +372,29 @@ h2{
   font-size: 20px;
   margin-right: 20px; /* Add margin to create space between icons */
   text-decoration: none;
+}
+
+.offcanvas-body {
+  background-color: #fff; /* Change this to the desired background color for the offcanvas body */
+  color: #333; /* Change this to the desired text color for the section names */
+}
+
+.offcanvas .navbar-nav .nav-link {
+  color: #333; /* Change this to the desired text color for the section links */
+}
+
+.offcanvas .navbar-nav .nav-link:hover {
+  color: #fff; /* Change this to the desired text color on hover for the section links */
+  background-color: #1B6B93; /* Change this to the desired background color on hover for the section links */
+}
+
+.offcanvas-background-color{
+  background-color: #1B6B93;
+}
+
+/* Make the navbar sticky */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }

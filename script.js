@@ -305,3 +305,34 @@ workExperience.forEach((experience) => {
   workExperienceBox.appendChild(bulletPointsList);
   workExperienceContainer.appendChild(workExperienceBox);
 });
+
+// custom.js
+
+const offcanvasNavbar = new bootstrap.Offcanvas(document.getElementById('offcanvasNavbar'));
+
+// Function to scroll to the section smoothly
+function scrollToSection(event) {
+  event.preventDefault();
+  const target = event.target.getAttribute('href');
+  const section = document.querySelector(target);
+
+  // Close the offcanvas menu
+  closeOffcanvasMenu();
+
+  // Scroll to the section smoothly after the offcanvas menu is fully closed
+  const offcanvasElement = document.getElementById('offcanvasNavbar');
+  offcanvasElement.addEventListener('hidden.bs.offcanvas', function () {
+    section.scrollIntoView({ behavior: 'smooth' });
+  });
+}
+
+// Add an event listener to each link inside the offcanvas menu
+const offcanvasLinks = document.querySelectorAll('#offcanvasNavbar .nav-link');
+offcanvasLinks.forEach(link => {
+  link.addEventListener('click', scrollToSection);
+});
+
+// Close the offcanvas menu when a link is clicked
+function closeOffcanvasMenu() {
+  offcanvasNavbar.hide();
+}
