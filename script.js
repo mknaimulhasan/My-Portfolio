@@ -93,6 +93,15 @@ const achievement = {
 // Work Experience data
 const workExperience = [
   {
+    company: "INDETECHS SOFTWARE LIMITED - Software Developer Intern ",
+    
+    bulletPoints: [
+      "Engage in structured training programs to acquire proficiency in programming languages, software development methodologies, and tools.",
+      "Collaborate with senior software engineers on real-world projects, participating in design, coding, and software testing.",
+      "Maintain technical documentation, manage project priorities, and contribute to continuous improvement initiatives, fostering team growth."
+    ]
+  },
+  {
     company: "TACO BELL - Shift Supervisor ",
     
     bulletPoints: [
